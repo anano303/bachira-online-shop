@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Manrope;
+  padding: 40px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 40px 120px; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: 0.3px;
+}
+nav {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+nav:hover {
+  color: Black;
+}
+a {
+  text-decoration: none;
+  color: #535a56;
+}
+.btns {
+  display: flex;
+  gap: 10px;
+}
+.login {
+  border: none;
+  background-color: #ffffff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+  color: #101913;
+}
+.register,
+.shopping {
+  background: #3c9379;
+  padding: 12px 18px 12px 18px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+h1,
+span {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 129.63% */
+  letter-spacing: 0.5px;
+}
+span {
+  color: #3c9379;
+}
+p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.3px;
+  color: gray;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.shopping {
+  width: 156px;
+}
+.p2 {
+  color: Grey;
+}
+
+h2 {
+  color: var(--Black, #101913);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: 0.3px;
+}
+.svgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.section3 {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cards {
+  display: flex;
+  gap: 26px;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.card2 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.section4 {
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.minicont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.h1 {
+  margin-left: 25%;
+}
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
+.section5 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 89px;
+}
+.lastP {
+  text-align: center;
+}
